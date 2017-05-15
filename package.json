@@ -1,0 +1,28 @@
+{
+  "name": "workout-log",
+  "version": "1.0.0",
+  "description": "workout log and analysis tool",
+  "main": "index.js",
+  "repository": "https://github.com/gunbladesniper/workout-log.git",
+  "author": "Savaughn Jones <savaughnjones@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+  	"start": "node server/server.js",
+  	"start-nodemon": "nodemon server/server.js",
+  	"start-webpack": "webpack --config webpack.config.js --progress --colors --watch"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "webpack": "^2.5.1"
+  }
+}
